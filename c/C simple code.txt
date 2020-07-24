@@ -1,8 +1,12 @@
 #include <stdio.h>
 
+
+unsinged int var = 2;
+
 int main()
 {
-	unsinged int var = 1;
-	printf("var = %d \n", var");
+	printf("var=");
+	printf("%d", var");
+	
 	return 1;
 }
